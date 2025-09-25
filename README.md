@@ -16,16 +16,18 @@
 
 ## 技术栈
 
-- 后端：Rust + Actix-Web
-- 前端：Rust + Yew + WebAssembly
-- 通信：WebSocket
-- 构建工具：Cargo, Trunk
+- 后端：
+- 前端：
+- 通信：
+- 构建工具：
 
 ## 项目结构
 
 ```
-MakeChat/
-├── backend/     # 后端服务
-├── frontend/    # 前端应用
-└── dev_docs/    # 开发文档
+- `app/` - 主应用模块（包含启动类）
+- `core/` - 核心业务逻辑和领域模型
+- `data/` - 数据访问层（JPA、Repository）
+- `web/` - Web层（Controller、DTO、API定义）
+- `list/` - 链表数据结构工具
+- `utilities/` - 通用工具类
 ```
