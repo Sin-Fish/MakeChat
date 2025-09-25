@@ -1,0 +1,31 @@
+{
+  "name": "makechat-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for MakeChat - an innovative anonymous social system combining infinite whiteboard with instant messaging",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "makechat",
+    "whiteboard",
+    "chat",
+    "anonymous",
+    "real-time"
+  ],
+  "author": "MakeChat Team",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "pinia": "^2.1.0",
+    "vue": "^3.3.0",
+    "vue-router": "^4.2.0",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.0",
+    "vite": "^4.3.0"
+  }
+}
