@@ -5,10 +5,15 @@
  * For more detailed information on multi-project builds, please refer to https://docs.gradle.org/9.0.0/userguide/multi_project_builds.html in the Gradle documentation.
  */
 
-plugins {
-    // Apply the foojay-resolver plugin to allow automatic download of JDKs
-    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
-}
+ plugins {
+        id("org.springframework.boot") version "3.2.0"
+        id("io.spring.dependency-management") version "1.1.4"
+    }
 
 rootProject.name = "MakeChat"
-include("app", "list", "utilities")
+include(":app")
+include(":list") 
+include(":utilities")
+include(":core")          // 新增核心模块
+include(":data")          // 新增数据访问模块
+include(":web")           // 新增Web模块

@@ -3,3 +3,6 @@
 
 # Ignore Gradle build output directory
 build
+
+file_tree.txt
+file_tree_config.json
